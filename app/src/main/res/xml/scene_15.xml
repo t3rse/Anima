@@ -20,13 +20,15 @@
 
     <Transition
         motion:constraintSetStart="@+id/start"
-        motion:constraintSetEnd="@+id/end">
+        motion:constraintSetEnd="@+id/end"
+        motion:duration="250"
+        >
 
         <ConstraintSet android:id="@+id/start">
             <Constraint
                 android:id="@id/tieFighterImageView"
-                android:layout_width="200dp"
-                android:layout_height="200dp"
+                android:layout_width="600dp"
+                android:layout_height="600dp"
                 android:translationX="10dp"
                 android:translationY="10dp"
                 />
@@ -36,8 +38,8 @@
         <ConstraintSet android:id="@+id/end">
             <Constraint
                 android:id="@id/tieFighterImageView"
-                android:layout_width="200dp"
-                android:layout_height="200dp"
+                android:layout_width="600dp"
+                android:layout_height="600dp"
                 android:translationX="10dp"
                 android:translationY="400dp"
                 />
