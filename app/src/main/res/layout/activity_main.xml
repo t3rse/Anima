@@ -17,6 +17,14 @@
         android:src="@mipmap/tiefighter"
         />
 
+    <ImageView
+        android:id="@+id/tieFighterImageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Tie Fighter"
+        android:src="@mipmap/tiefighter"
+        />
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rvData"
         android:layout_width="match_parent"

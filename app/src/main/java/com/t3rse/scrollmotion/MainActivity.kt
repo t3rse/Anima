@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                 val percentage = ((100.0f * offset / (range - extent).toFloat())
                                         * 0.2f) // the 0.2f to tweak relationship of scrolling
 
-                motionContainer.progress = percentage * 0.01f
+                motionContainer.progress = percentage
 
                 Log.d("SCROLLING", "Scrolled x: ${dx} y: ${dy} | ScrollY: ${percentage}")
 

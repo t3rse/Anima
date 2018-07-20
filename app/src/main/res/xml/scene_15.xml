@@ -32,7 +32,13 @@
                 android:translationX="10dp"
                 android:translationY="10dp"
                 />
-
+            <Constraint
+                android:id="@id/tieFighterImageView2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:translationX="0dp"
+                android:translationY="10dp"
+                />
         </ConstraintSet>
 
         <ConstraintSet android:id="@+id/end">
@@ -42,6 +48,13 @@
                 android:layout_height="600dp"
                 android:translationX="10dp"
                 android:translationY="400dp"
+                />
+            <Constraint
+                android:id="@id/tieFighterImageView2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:translationX="0dp"
+                android:translationY="800dp"
                 />
         </ConstraintSet>
 
